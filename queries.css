@@ -1,0 +1,9 @@
+@media (max-width: 39em) {
+  body {
+    margin: 1rem;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
