@@ -1,9 +1,23 @@
 @media (max-width: 39em) {
   body {
-    margin: 1rem;
+    margin: 2rem 1rem;
   }
   .container {
     display: flex;
     flex-direction: column;
   }
+
+  .box-img {
+    min-height: 24rem;
+    background-image: url(images/image-product-mobile.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .box-text {
+    min-height: 37.1rem;
+  }
+
+ 
 }
